@@ -1,0 +1,156 @@
+.tausta {
+    display: flex;
+    background-color: rgb(2, 2, 75);
+    width: 100%;
+    color: white;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otsikko{
+    font-size: 30px;
+    font-weight: 500px;
+    font-family: fantasy;
+    font-style: initial;
+}
+
+.napit1{
+    position: absolute;
+    right: 500px
+}
+
+.napit{
+    position: absolute;
+    right: 10px;
+}
+
+.ilmoitus{
+    display: flex;
+    width: 80%;
+    background-color: rgb(16, 136, 145);
+    color: white;
+    height: auto;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ilmoitusO{
+    color: white;
+    font-family: fantasy;
+}
+
+.mainos{
+    display: flex;
+    width: 80%;
+    background-color: rgb(6, 170, 219);
+    color: white;
+    height: auto;
+    align-items: center;
+    margin-top: 5;
+    margin-bottom: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pUutinen{
+    color: black;
+    font-family: fantasy;
+    font-style: initial;
+    font-size: 25px;
+    position: absolute;
+    bottom: 400px;
+}
+
+.pUutinen2{
+    color: rgb(6, 6, 172);
+    font-family: fantasy;
+    font-style: initial;
+    font-size: 25px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.pUutinen3{
+    color: black;
+    font-family: fantasy;
+    font-style: initial;
+    font-size: 25px;
+    position: absolute;
+    bottom: 140px;
+    left: 250px;
+    text-align: center;
+    margin: 5px;
+    width: 500px;
+    white-space: normal;
+}
+
+.pUutinenbg{
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.luetuimmatO{
+    color: black;
+    font-family: fantasy;
+    font-style: initial;
+    font-size: 20px;
+    position: absolute;
+    bottom: 400px;
+    right: 312px;
+}
+
+.luetuimmat1{
+    color: black;
+    font: fantasy;
+    font-style: initial;
+    font-size: 17px;
+    position: absolute;
+    bottom: 325px;
+    right: 10px;
+    width: 400px;
+    white-space: normal;
+}
+
+.luetuimmat2{
+    color: black;
+    font: fantasy;
+    font-style: initial;
+    font-size: 17px;
+    position: absolute;
+    bottom: 250px;
+    right: 10px;
+    width: 400px;
+    white-space: normal;
+}
+
+.luetuimmat3{
+    color: black;
+    font: fantasy;
+    font-style: initial;
+    font-size: 17px;
+    position: absolute;
+    bottom: 150px;
+    right: 10px;
+    width: 400px;
+    white-space: normal;
+}
+
+.luetuimmatI{
+    font-family: fantasy;
+    color: black;
+}
+
+.luetuimmatbg{
+    background-color: white;
+    display: flex;
+    width: 30%;
+    margin-right: auto;
+}
