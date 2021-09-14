@@ -57,7 +57,9 @@ addSomeOnions(){
       />
       <ShoppingList items={ this.state.items } />
       <button>Click me!</button>
+    
     // Creates the buttons for the products
+    
       <button onClick={ this.addSomeBeer }>Beer</button>
       <button onClick={ this.addSomeRice }>Rice</button>
       <button onClick={ this.addSomeChicken }>Chicken</button>
