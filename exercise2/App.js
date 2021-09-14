@@ -21,12 +21,16 @@ class App extends React.Component {
         { id: 4, value: 'Eggs', qty: 16, unit: 'x' }
       ]
     };
+    
+    // Binds the identifier to 'this' keyword, so that the buttons actually work
 
     this.addSomeBeer = this.addSomeBeer.bind(this);
     this.addSomeRice = this.addSomeRice.bind(this);
     this.addSomeChicken = this.addSomeChicken.bind(this);
     this.addSomeOnions = this.addSomeOnions.bind(this);
   }
+  
+  // Creates the products, and adds a random amount of the products to the shopping list
 
   addSomeBeer(){
     this.setState({ items: [...this.state.items, {id: 5, value: "Beer", qty: Math.floor(Math.random() * 10) + 1, unit: "ltr"}]})
@@ -53,6 +57,7 @@ addSomeOnions(){
       />
       <ShoppingList items={ this.state.items } />
       <button>Click me!</button>
+    // Creates the buttons for the products
       <button onClick={ this.addSomeBeer }>Beer</button>
       <button onClick={ this.addSomeRice }>Rice</button>
       <button onClick={ this.addSomeChicken }>Chicken</button>
