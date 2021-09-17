@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "product": "Portable 2TB External Hard Drive",
+            "maker": "Seagate",
+            "image": "p1.png",
+            "price": 62.99,
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "product": "Streaming Media Player HD/4K/HDR",
+            "maker": "Roku Express",
+            "image": "p2.png",
+            "price": 29.00,
+            "rating": 4.5
+        },
+        {
+            "id": 3,
+            "product": "Streaming stick+",
+            "maker": "Roku Express",
+            "image": "p3.png",
+            "price": 47.60,
+            "rating": 4.5
+        },
+        {
+            "id": 4,
+            "product": "2TB Elements Portable External Hard Drive",
+            "maker": "Western Digital",
+            "image": "p4.png",
+            "price": 59.99,
+            "rating": 4.5
+        },
+        {
+            "id": 5,
+            "product": "iPhone Charger",
+            "maker": "QIRUOZ",
+            "image": "5.png",
+            "price": 12.99,
+            "rating": 4.5
+        },
+        {
+            "id": 6,
+            "product": "Wired Headset",
+            "maker": "Logitech",
+            "image": "p6.png",
+            "price": 42.90,
+            "rating": 4.5
+        }
+    ]
+}

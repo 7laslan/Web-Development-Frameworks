@@ -1,0 +1,7 @@
+.logo{
+    display: flex;
+    background-color: rgb(3, 3, 37);
+    width: 100%;
+    font-size: 30px;
+    color: white;
+}
